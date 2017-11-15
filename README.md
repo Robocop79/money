@@ -1,2 +1,2 @@
 # money
-MCG1.html
+<script src="MCG1.html">
