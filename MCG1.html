@@ -3,10 +3,13 @@
     <hr>
     <p>
     <br>Dollars: <span id="Dollars">0</span><br/>
-    <script> 
-        var Dollars = 0;
-function DollarsClick(1){
-    Dollars = Dollars + 1;
-};
-        document.getElementById("click").innerHTML = Dollars;
-        </script>
+ <script type="text/javascript" >
+    //Variable
+    var points = 0
+ 
+    //Click Function
+    $("#click").on("mousedown", function(){
+        points = points + 1;
+        $("#click").html("Click " + points);
+    });
+ </script>
